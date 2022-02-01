@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Outline is a resource designed for teachers, parents, and community members that makes the 40 stories featured on Storybooks Canada available in black & white colour-in versions.
 ">
 	<link rel="stylesheet" href="/storybooks-outline/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-outline/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-outline/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-outline/stories/fr/0296/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Outline" href="https://global-asp.github.io//storybooks-outline/feed.xml">
 	<script src="/storybooks-outline/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -74,7 +77,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-outline/stories/fr" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-outline/stories/fr">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0296/01.jpg"></div>
@@ -82,22 +85,22 @@
 		<h1><span class="def">Tom le vendeur de bananes</span>
 			<span class="l1">Tom the banana seller</span>
 			<span class="l2">Tom le vendeur de bananes</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0296/mp3/01.mp3"></audio>
-				<button onclick="switchlang('fr,en','en,fr,fr')" class="btn btn-lg lang-primary" title="Switch between French and English">en</button>
-				<button onclick="switchlang('fr,fr','en,fr,fr')" class="btn btn-lg lang-secondary" title="Switch between French and French">fr</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-outline/css/pencil.svg" alt="Written by" width="38px"></span> Humphreys Odunga</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-outline/css/art.svg" alt="Illustrated by" width="38px"></span> Zablon Alex Nguku</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-outline/css/global.svg" alt="Translated by" width="38px"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-outline/css/megaphone.svg" alt="Read by" width="38px"></span> Alexandra Danahy</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-outline/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-outline/stories/fr">French</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-outline/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-outline/stories/fr/level2">Level 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0296/fr-0296_tom.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/fr/0296/mp3/01.mp3"></audio>
+			<button onclick="switchlang('fr,en','en,fr,fr')" class="btn btn-lg lang-primary" title="Switch between French and English">en</button>
+			<button onclick="switchlang('fr,fr','en,fr,fr')" class="btn btn-lg lang-secondary" title="Switch between French and French">fr</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/pencil.svg" alt="Written by"></span> Humphreys Odunga</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/art.svg" alt="Illustrated by"></span> Zablon Alex Nguku</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/global.svg" alt="Translated by"></span> Alexandra Danahy</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/megaphone.svg" alt="Read by"></span> Monique Bournot-Trites</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/language.svg" alt="Language"></span> <a href="/storybooks-outline/stories/fr">French</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/level.svg" alt="Level"></span> <a href="/storybooks-outline/stories/fr/level2">Level 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/fr/0296/fr-0296_tom.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -106,14 +109,14 @@
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0296/02.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Tom transporte un plateau de bananes mures.
+	Tom transporte un plateau de bananes mûres.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	Tom carries a tray of ripe bananas.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Tom transporte un plateau de bananes mures.
+	Tom transporte un plateau de bananes mûres.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -199,12 +202,12 @@
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	But no one is buying
 
-Tom's bananas.
+Tom’s bananas.
 
 They prefer to buy fruit from women.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Mais personne n'achète les bananes de Tom. Ils préfèrent acheter leurs fruits des femmes.
+	Mais personne n’achète les bananes de Tom. Ils préfèrent acheter leurs fruits des femmes.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -226,14 +229,14 @@ They prefer to buy fruit from women.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0296/06.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	«&nbsp;Dans notre communauté, seulement les femmes vendent des fruits,&nbsp;» les gens disent. «&nbsp;Quelle sorte d’homme est celui-ci&nbsp;?&nbsp;» les gens demandent.
+	«&nbsp;Dans notre communauté, seulement les femmes vendent des fruits,&nbsp;» disent les gens. «&nbsp;Quelle sorte d’homme est celui-ci&nbsp;?&nbsp;» demandent les gens.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
-	"In our community, only women sell fruit," people say. "What kind of a man is this?" people ask.
+	“In our community, only women sell fruit,” people say. “What kind of a man is this?” people ask.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	«&nbsp;Dans notre communauté, seulement les femmes vendent des fruits,&nbsp;» les gens disent. «&nbsp;Quelle sorte d'homme est celui-ci&nbsp;?&nbsp;» les gens demandent.
+	«&nbsp;Dans notre communauté, seulement les femmes vendent des fruits,&nbsp;» disent les gens. «&nbsp;Quelle sorte d’homme est celui-ci&nbsp;?&nbsp;» demandent les gens.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -255,18 +258,18 @@ They prefer to buy fruit from women.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0296/07.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Mais Tom ne démissionne pas. Il crie, «&nbsp;Achetez mes bananes&nbsp;! Achetez mes bananes mures et sucrées&nbsp;!&nbsp;»
+	Mais Tom ne démissionne pas. Il crie, «&nbsp;Achetez mes bananes&nbsp;! Achetez mes bananes mûres et sucrées&nbsp;!&nbsp;»
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	But Tom does not give up.
 
-He calls, "Buy my bananas!
+He calls, “Buy my bananas!
 
-Buy my sweet ripe bananas!"
+Buy my sweet ripe bananas!”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Mais Tom ne démissionne pas. Il crie, «&nbsp;Achetez mes bananes&nbsp;! Achetez mes bananes mures et sucrées&nbsp;!&nbsp;»
+	Mais Tom ne démissionne pas. Il crie, «&nbsp;Achetez mes bananes&nbsp;! Achetez mes bananes mûres et sucrées&nbsp;!&nbsp;»
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -288,7 +291,7 @@ Buy my sweet ripe bananas!"
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0296/08.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	Une femme choisi un régime de bananes du plateau. Elle inspecte les bananes soigneusement.
+	Une femme choisit un régime de bananes du plateau. Elle inspecte les bananes soigneusement.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
@@ -297,7 +300,7 @@ Buy my sweet ripe bananas!"
 She looks at the bananas carefully.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Une femme choisi un régime de bananes du plateau. Elle inspecte les bananes soigneusement.
+	Une femme choisit un régime de bananes du plateau. Elle inspecte les bananes soigneusement.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -348,16 +351,16 @@ She looks at the bananas carefully.
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0296/10.jpg"></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt def"><h3>
 
-	D’autres personnes viennent au stand. Ils achètent les bananes de Tom et les mangent.
+	D’autres personnes viennent au stand. Elles achètent les bananes de Tom et les mangent.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	More people come to the stall.
 
-They buy Tom's bananas and eat them.
+They buy Tom’s bananas and eat them.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	D'autres personnes viennent au stand. Ils achètent les bananes de Tom et les mangent.
+	D’autres personnes viennent au stand. Elles achètent les bananes de Tom et les mangent.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -388,7 +391,7 @@ They buy Tom's bananas and eat them.
 Tom counts the money he earned.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Bientôt, le plateau est vide. Tom compte l'argent qu'il a gagné.
+	Bientôt, le plateau est vide. Tom compte l’argent qu’il a gagné.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -471,12 +474,12 @@ He puts the things in his tray.
 		<h5>Written by: Humphreys Odunga</h5>
 		<h5>Illustrated by: Zablon Alex Nguku</h5>
 		<h5>Translated by: Alexandra Danahy</h5>
-		<h5>Read by: Alexandra Danahy</h5>
+		<h5>Read by: Monique Bournot-Trites</h5>
 		<h5>Language: <a href="/storybooks-outline/stories/fr">French</a></h5>
 		<h5><a href="/storybooks-outline/stories/fr/level2">Level 2</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/13627" target="_blank">Tom the banana seller</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=13627" target="_blank">Tom the banana seller</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -498,6 +501,8 @@ He puts the things in his tray.
 	<a class="btn btn-lg" href="/storybooks-outline/stories/fr" class="button">Back to stories list</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/outline/pdf/fr/fr-0296_tom-outline.pdf">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

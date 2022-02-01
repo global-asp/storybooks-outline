@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Outline is a resource designed for teachers, parents, and community members that makes the 40 stories featured on Storybooks Canada available in black & white colour-in versions.
 ">
 	<link rel="stylesheet" href="/storybooks-outline/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-outline/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-outline/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-outline/stories/pt/0262/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Outline" href="https://global-asp.github.io//storybooks-outline/feed.xml">
 	<script src="/storybooks-outline/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -74,7 +77,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-outline/stories/pt" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-outline/stories/pt">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0262/01.jpg"></div>
@@ -82,22 +85,22 @@
 		<h1><span class="def">Magozwe</span>
 			<span class="l1">Magozwe</span>
 			<span class="l2">Magozwe</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pt/0262/mp3/01.mp3"></audio>
-				<button onclick="switchlang('pt,en','en,fr,pt')" class="btn btn-lg lang-primary" title="Switch between Portuguese and English">en</button>
-				<button onclick="switchlang('pt,fr','en,fr,pt')" class="btn btn-lg lang-secondary" title="Switch between Portuguese and French">fr</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-outline/css/pencil.svg" alt="Written by" width="38px"></span> Lesley Koyi</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-outline/css/art.svg" alt="Illustrated by" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-outline/css/global.svg" alt="Translated by" width="38px"></span> Translators without Borders, Rita Rolim, Priscilla Freitas de Oliveira</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-outline/css/megaphone.svg" alt="Read by" width="38px"></span> Alfredo Ferreira</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-outline/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-outline/stories/pt">Portuguese</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-outline/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-outline/stories/pt/level5">Level 5</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pt/0262/pt-0262_magozwe.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/pt/0262/mp3/01.mp3"></audio>
+			<button onclick="switchlang('pt,en','en,fr,pt')" class="btn btn-lg lang-primary" title="Switch between Portuguese and English">en</button>
+			<button onclick="switchlang('pt,fr','en,fr,pt')" class="btn btn-lg lang-secondary" title="Switch between Portuguese and French">fr</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/pencil.svg" alt="Written by"></span> Lesley Koyi</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/global.svg" alt="Translated by"></span> Translators without Borders, Rita Rolim, Priscilla Freitas de Oliveira</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/megaphone.svg" alt="Read by"></span> Alfredo Ferreira</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/language.svg" alt="Language"></span> <a href="/storybooks-outline/stories/pt">Portuguese</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/level.svg" alt="Level"></span> <a href="/storybooks-outline/stories/pt/level5">Level 5</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/pt/0262/pt-0262_magozwe.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -121,11 +124,7 @@ On one morning, the boys were packing their mats after sleeping on cold pavement
 Among the group of boys was Magozwe. He was the youngest.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Dans la ville animée de Nairobi, loin d'un climat familiale attentif et aimant, vivaient un groupe de jeunes sans-abris. Ils vivaient au jour le jour.
-
-Un matin, les garçons remballaient leurs matelas après avoir dormis sur le trottoir tout froid. Pour braver le froid, ils avaient fait un feu à l'aide de détritus.
-
-Parmi ces jeunes garçons se trouvait Magozwe. C'était le plus jeune d'entre eux.
+	Dans la ville animée de Nairobi, loin d’un climat familial attentif et aimant, vivait un groupe de jeunes sans-abris. Ils vivaient au jour le jour. Un matin, les garçons remballaient leurs matelas après avoir dormi sur le trottoir tout froid. Pour braver le froid, ils avaient fait un feu à l’aide de détritus. Parmi ces jeunes garçons se trouvait Magozwe. C’était le plus jeune d’entre eux.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -151,10 +150,10 @@ Parmi ces jeunes garçons se trouvait Magozwe. C'était le plus jeune d'entre eu
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	When Magozwe's parents died, he was only five years old. He went to live with his uncle. This man did not care about the child. He did not give Magozwe enough food. He made the boy do a lot of hard work.
+	When Magozwe’s parents died, he was only five years old. He went to live with his uncle. This man did not care about the child. He did not give Magozwe enough food. He made the boy do a lot of hard work.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Quand Magozwe a perdu ses parents, il n'avait que cinq ans. Après leur décès, il alla s'installer avec son oncle, mais ce dernier n'avait pas une once d'affection pour Magozwe. Il ne lui donnait pas assez de nourriture et le faisait travailler le très dur.
+	Quand Magozwe perdit ses parents, il n’avait que cinq ans. Après leur décès, il alla s’installer avec son oncle, mais ce dernier n’avait pas une once d’affection pour Magozwe. Il ne lui donnait pas assez de nourriture et le faisait travailler très dur.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -182,14 +181,12 @@ Passados três anos, Magozwe fugiu da casa do tio e começou a viver na rua.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	If Magozwe complained or questioned, his uncle beat him. When Magozwe asked if he could go to school, his uncle beat him and said, "You're too stupid to learn anything."
+	If Magozwe complained or questioned, his uncle beat him. When Magozwe asked if he could go to school, his uncle beat him and said, “You’re too stupid to learn anything.”
 
 After three years of this treatment Magozwe ran away from his uncle. He started living on the street.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Si Magozwe avait le malheur de se plaindre ou de répliquer, son oncle le frappait. Quand Magozwe demandait s'il pouvait aller à l'école, son oncle le frappait de plus belle, lui disant : « Tu es trop stupide pour apprendre quoi que ce soit ».
-
-Après avoir supporté ce traitement pendant trois ans, Magozwe s'enfuit de chez son oncle et commença à vivre dans la rue.
+	Si Magozwe avait le malheur de se plaindre ou de répliquer, son oncle le frappait. Quand Magozwe demandait s’il pouvait aller à l’école, son oncle le frappait de plus belle, lui disant : « Tu es trop stupide pour apprendre quoi que ce soit. » Après avoir supporté ce traitement pendant trois ans, Magozwe s’enfuit de chez son oncle et commença à vivre dans la rue.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -226,11 +223,7 @@ The group depended on the little money they got from begging, and from selling p
 Life was even more difficult because of fights with rival groups who wanted control of parts of the city.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	La vie dans la rue était difficile et la plupart des garçons avaient du mal à se procurer de la nourriture. Il leur arrivait de se faire arrêter, et quelques fois, ils se faisaient tabasser. Lorsqu'ils étaient malades, il n'y avait personne pour les aider.
-
-Le groupe dépendait du peu d'argent qu'ils gagnaient de leur mendicité, ou en vendant des plastiques ou autres objets recyclables.
-
-Les bagarres avec les autres groupes qui voulaient contrôler toute la ville rendait leur vie encore plus difficile.
+	La vie dans la rue était difficile et la plupart des garçons avaient du mal à se procurer de la nourriture. Il leur arrivait de se faire arrêter, et quelquefois, ils se faisaient tabasser. Lorsqu’ils étaient malades, il n’y avait personne pour les aider. Le groupe dépendait du peu d’argent gagné en mendiant, ou en vendant des plastiques ou autres objets recyclables. Les bagarres avec les autres groupes qui voulaient contrôler toute la ville rendait leur vie encore plus difficile.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -263,9 +256,7 @@ Todos os dias que se seguiram Magozwe folheava o livro e observava as ilustraç�
 Every day after that he would take out the book and look at the pictures. He did not know how to read the words.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Un jour, Magozwe fouilla dans la poubelle et trouva un vieux livre. Il le dépoussiéra et le mis dans son sac.
-
-Les jours suivants, il prit l'habitude de sortir son livre de son sac et d'en regarder les images. Il ne savait pas lire.
+	Un jour, Magozwe fouilla dans la poubelle et trouva un vieux livre. Il le dépoussiéra et le mit dans son sac. Les jours suivants, il prit l’habitude de sortir son livre de son sac et d’en regarder les images. Il ne savait pas lire.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -298,9 +289,7 @@ Magozwe sonhava acordado com a ideia de vir a ser piloto um dia. Às vezes, imag
 Magozwe would daydream of being a pilot. Sometimes, he imagined that he was the boy in the story.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Les images racontèrent l'histoire d'un garçon qui, quand il fut devenu grand, devint pilote.
-
-Magozwe rêvait qu'il était pilote. Quelques fois, il imaginait qu'il était le garçon dans l'histoire.
+	Les images racontaient l’histoire d’un garçon qui, quand il était devenu grand, devint pilote. Magozwe rêvait qu’il était pilote. Quelquefois, il imaginait qu’il était le garçon dans l’histoire.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -330,18 +319,14 @@ Magozwe olhou para o senhor e depois para a casa, respondeu “Talvez” e foi e
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	It was cold and Magozwe was standing on the road begging. A man walked up to him. "Hello, I'm Thomas. I work near here, at a place where you can get something to eat," said the man.
+	It was cold and Magozwe was standing on the road begging. A man walked up to him. “Hello, I’m Thomas. I work near here, at a place where you can get something to eat,” said the man.
 
-He pointed to a yellow house with a blue roof. "I hope you will go there to get some food?" he asked.
+He pointed to a yellow house with a blue roof. “I hope you will go there to get some food?” he asked.
 
-Magozwe looked at the man, and then at the house. "Maybe," he said, and walked away.
+Magozwe looked at the man, and then at the house. “Maybe,” he said, and walked away.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Il faisait froid. Magozwe se tenait dans la rue mendiant, quand soudain un homme s'approcha de lui et dit : « Bonjour, je m'appelle Thomas. Je travaille tout près d'ici, dans un endroit où tu pourras manger », dit-il.
-
-Il lui montra au loin une maison jaune au toit bleu. « J'espère que tu viendras manger», lui dit-il.
-
-Magozwe regarda l'homme, puis la maison, et lui répondit : « Peut-être », puis il s'en alla.
+	Il faisait froid. Magozwe se tenait dans la rue, mendiant, quand soudain un homme s’approcha de lui et dit : « Bonjour, je m’appelle Thomas. Je travaille tout près d’ici, dans un endroit où tu pourras manger », dit-il. Il lui montra au loin une maison jaune au toit bleu. « J’espère que tu viendras manger », lui dit-il. Magozwe regarda l’homme, puis la maison, et lui répondit : « Peut-être », puis il s’en alla.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -373,12 +358,10 @@ Alguns meninos começaram a ir à casa amarela e azul ao meio-dia para comer.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Over the months that followed, the homeless boys got used to seeing Thomas around. He liked to talk to people, especially people living on the streets.
 
-Thomas listened to the stories of people's lives. He was serious and patient, never rude or disrespectful. Some of the boys started going to the yellow and blue house to get food at midday.
+Thomas listened to the stories of people’s lives. He was serious and patient, never rude or disrespectful. Some of the boys started going to the yellow and blue house to get food at midday.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Les mois suivants, le jeune sans-abri avait pris l'habitude de voir Thomas dans les parages. Il aimait parler avec les gens qui vivaient dans la rue.
-
-Thomas écoutait les histoires que lui racontaient les gens. Il était sérieux, patient. Il n'était jamais impoli ni irrespectueux. Certains garçons commencèrent à se rendre à la maison jaune et bleu pour avoir un repas à midi.
+	Les mois suivants, le jeune sans-abri avait pris l’habitude de voir Thomas dans les parages. Il aimait parler avec les gens qui vivaient dans la rue. Thomas écoutait les histoires que lui racontaient les gens. Il était sérieux, patient. Il n’était jamais impoli ni irrespectueux. Certains garçons commencèrent à se rendre à la maison jaune et bleue pour avoir un repas à midi.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -406,24 +389,16 @@ Thomas écoutait les histoires que lui racontaient les gens. Il était sérieux,
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Magozwe was sitting on the pavement looking at his picture book when Thomas sat down next to him.
 
-"What is the story about?" asked Thomas.
+“What is the story about?” asked Thomas.
 
-"It's about a boy who becomes a pilot," replied Magozwe.
+“It’s about a boy who becomes a pilot,” replied Magozwe.
 
-"What's the boy's name?" asked Thomas.
+“What’s the boy’s name?” asked Thomas.
 
-"I don't know, I can't read," said Magozwe quietly.
+“I don’t know, I can’t read,” said Magozwe quietly.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Magozwe s'asseyait sur le trottoir et regardait les images de son livre quand soudain, Thomas vint s'assoir à côté de lui.
-
-« De quoi parle l'histoire » ? demanda Thomas.
-
-« C'est l'histoire d'un garçon qui devient pilote », lui répondit Magozwe.
-
-« Comment s'appelle ce garçon », demanda Thomas.
-
-Magozwe répondit calmement : « Je ne sais pas, je ne sais pas lire »
+	Magozwe s’asseyait sur le trottoir et regardait les images de son livre quand soudain, Thomas vint s’assoir à côté de lui. « De quoi parle l’histoire » ? demanda Thomas. « C’est l’histoire d’un garçon qui devient pilote », lui répondit Magozwe. « Comment s’appelle ce garçon », demanda Thomas. Magozwe répondit calmement : « Je ne sais pas, je ne sais pas lire. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -453,16 +428,12 @@ Thomas não falava muito nem lhe dizia o que fazer, apenas ouvia com atenção. 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	When they met, Magozwe began to tell his own story to Thomas. It was the story of his uncle and why he ran away.
 
-Thomas didn't talk a lot, and he didn't tell Magozwe what to do, but he always listened carefully.
+Thomas didn’t talk a lot, and he didn’t tell Magozwe what to do, but he always listened carefully.
 
 Sometimes they would talk while they ate at the house with the blue roof.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Quand ils se rencontraient, Magozwe commençait à raconter son histoire à Thomas. L'histoire de son oncle et la raison pour laquelle il s'était enfuit.
-
-Thomas ne parlait pas beaucoup et ne disait pas à Magozwe ce qu'il devait faire, mais l'écoutait toujours très attentivement.
-
-Quelques fois, ils parlaient autour d'un repas qu'ils prenaient dans la maison au toit bleu.
+	Quand ils se rencontraient, Magozwe commençait à raconter son histoire à Thomas. L’histoire de son oncle et la raison pour laquelle il s’était enfui. Thomas ne parlait pas beaucoup et ne disait pas à Magozwe ce qu’il devait faire, mais l’écoutait toujours très attentivement. Quelques fois, ils parlaient autour d’un repas qu’ils prenaient dans la maison au toit bleu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -492,14 +463,12 @@ Thomas explicou que sabia de um lugar onde as crianças podiam viver e ir à esc
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
-	Around Magozwe's tenth birthday, Thomas gave him a new storybook. It was a story about a village boy who grew up to be a famous soccer player.
+	Around Magozwe’s tenth birthday, Thomas gave him a new storybook. It was a story about a village boy who grew up to be a famous soccer player.
 
-Thomas read that story to Magozwe many times, until one day he said, "I think it's time you went to school and learned to read. What do you think?" Thomas explained that he knew of a place where children could stay, and go to school.
+Thomas read that story to Magozwe many times, until one day he said, “I think it’s time you went to school and learned to read. What do you think?” Thomas explained that he knew of a place where children could stay, and go to school.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Autour du dixième anniversaire de Magozwe, Thomas lui offrit un nouveau livre. C'était l'histoire d'un jeune villageois qui, quand il fut devenu grand, devint joueur de football.
-
-Thomas lut cette histoire à Magozwe maintes et maintes fois, jusqu'au jour où il lui dit : « Je pense qu'il est temps que tu ailles à l'école apprendre à lire. Qu'en penses-tu ? » Thomas lui expliqua qu'il connaissait un endroit où les enfants pouvaient rester et aller à l'école.
+	Autour du dixième anniversaire de Magozwe, Thomas lui offrit un nouveau livre. C’était l’histoire d’un jeune villageois qui, quand il fut devenu grand, devint joueur de football. Thomas lut cette histoire à Magozwe maintes et maintes fois, jusqu’au jour où il lui dit : « Je pense qu’il est temps que tu ailles à l’école apprendre à lire. Qu’en penses-tu ? » Thomas lui expliqua qu’il connaissait un endroit où les enfants pouvaient rester et aller à l’école.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -529,12 +498,10 @@ E se começassem a bater nele? Magozwe tinha medo. “Talvez seja melhor continu
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Magozwe thought about this new place, and about going to school. What if his uncle was right and he was too stupid to learn anything?
 
-What if they beat him at this new place? He was afraid. "Maybe it is better to stay living on the street," he thought.
+What if they beat him at this new place? He was afraid. “Maybe it is better to stay living on the street,” he thought.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Magozwe pensa à ce nouvel endroit et à l'idée d'aller à l'école. Et si son oncle avait raison, s'il était vraiment trop stupide pour apprendre quoi que ce soit ?
-
-Et si on le battait dans ce nouvel endroit ? Il avait peur. « Peut-être serait-il plus judicieux de rester vivre dans la rue », pensait-il.
+	Magozwe pensa à ce nouvel endroit et à l’idée d’aller à l’école. Et si son oncle avait raison, s’il était vraiment trop stupide pour apprendre quoi que ce soit ? Et si on le battait dans ce nouvel endroit ? Il avait peur. « Peut-être serait-il plus judicieux de rester vivre dans la rue », pensait-il.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -563,7 +530,7 @@ Et si on le battait dans ce nouvel endroit ? Il avait peur. « Peut-être serait
 	He shared his fears with Thomas. Over time the man reassured the boy that life could be better at the new place.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Il partagea ces craintes avec Thomas. Avec le temps, Thomas parvint à le rassurer en lui expliquant que la vie là-bas pourrait être meilleure.
+	Il partagea ses craintes avec Thomas. Avec le temps, Thomas parvint à le rassurer en lui expliquant que la vie là-bas pourrait être meilleure.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -596,9 +563,7 @@ Para além da Titi Cissy e do seu marido, três cães, um gato e um bode velho, 
 Altogether there were ten children living at that house. Along with Auntie Cissy and her husband, three dogs, a cat, and an old goat.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Et Magozwe emménagea dans une chambre, dans une maison au toit vert. Il partageait la chambre avec deux autres garçons.
-
-Il y avait dix garçons au total qui vivaient dans la maison. Y vivaient aussi tante Cissy et son mari, trois chiens, un chat et un vieux bouc.
+	Et Magozwe emménagea dans une chambre, dans une maison au toit vert. Il partageait la chambre avec deux autres garçons. Il y avait dix garçons au total qui vivaient dans la maison. Y vivaient aussi tante Cissy et son mari, trois chiens, un chat et un vieux bouc.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -629,9 +594,7 @@ Il y avait dix garçons au total qui vivaient dans la maison. Y vivaient aussi t
 But he thought about the pilot and the soccer player in the storybooks. Like them, he did not give up.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Magozwe commença l'école. C'était difficile. Il y avait beaucoup à rattraper. Quelques fois il voulait abandonner.
-
-Mais il pensait à la possibilité de devenir pilote ou joueur de football. Et comme les deux garçons de l'histoire, il n'abandonna pas.
+	Magozwe commença l’école. C’était difficile. Il avait beaucoup à rattraper. Quelquefois il voulait abandonner. Mais il pensait à la possibilité de devenir pilote ou joueur de football. Et comme les deux garçons de l’histoire, il n’abandonna pas.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -659,24 +622,16 @@ Mais il pensait à la possibilité de devenir pilote ou joueur de football. Et c
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l1"><h3>
 	Magozwe was sitting in the yard at the house with the green roof, reading a storybook from school. Thomas came up and sat next to him.
 
-"What is the story about?" asked Thomas.
+“What is the story about?” asked Thomas.
 
-"It's about a boy who becomes a teacher," replied Magozwe.
+“It’s about a boy who becomes a teacher,” replied Magozwe.
 
-"What's the boy's name?" asked Thomas.
+“What’s the boy’s name?” asked Thomas.
 
-"His name is Magozwe," said Magozwe with a smile.
+“His name is Magozwe,” said Magozwe with a smile.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level5-txt l2"><h3>
-	Magozwe était assis à l'entrée de la maison au toit vert, et lisait un livre qui venait de l'école. Thomas vint et s'assis à côté de lui.
-
-Il lui demanda : « De quoi parle l'histoire ? »
-
-Magozwe répondit : « C'est l'histoire d'un petit garçon qui voulait devenir professeur ».
-
-«Comment s'appelle le garçon », lui demanda Thomas.
-
-« Son nom est Magozwe », lui répondit Magozwe, avec un sourire.
+	Magozwe était assis à l’entrée de la maison au toit vert, et lisait un livre qui venait de l’école. Thomas vint et s’assis à côté de lui. Il lui demanda : « De quoi parle l’histoire ? » Magozwe répondit : « C’est l’histoire d’un petit garçon qui voulait devenir professeur. » «Comment s’appelle le garçon », lui demanda Thomas. « Son nom est Magozwe », lui répondit Magozwe, avec un sourire.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -702,9 +657,9 @@ Magozwe répondit : « C'est l'histoire d'un petit garçon qui voulait devenir p
 		<h5>Read by: Alfredo Ferreira</h5>
 		<h5>Language: <a href="/storybooks-outline/stories/pt">Portuguese</a></h5>
 		<h5><a href="/storybooks-outline/stories/pt/level5">Level 5</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/13213" target="_blank">Magozwe</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=13213" target="_blank">Magozwe</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -717,6 +672,8 @@ Magozwe répondit : « C'est l'histoire d'un petit garçon qui voulait devenir p
 	<a class="btn btn-lg" href="/storybooks-outline/stories/pt" class="button">Back to stories list</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/outline/pdf/pt/pt-0262_magozwe-outline.pdf">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Outline is a resource designed for teachers, parents, and community members that makes the 40 stories featured on Storybooks Canada available in black & white colour-in versions.
 ">
 	<link rel="stylesheet" href="/storybooks-outline/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-outline/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-outline/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-outline/stories/it/0243/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Outline" href="https://global-asp.github.io//storybooks-outline/feed.xml">
 	<script src="/storybooks-outline/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -74,7 +77,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-outline/stories/it" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-outline/stories/it">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0243/01.jpg"></div>
@@ -82,22 +85,22 @@
 		<h1><span class="def">Vacanze con la nonna</span>
 			<span class="l1">Holidays with grandmother</span>
 			<span class="l2">Les vacances avec grand-maman</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/it/0243/mp3/01.mp3"></audio>
-				<button onclick="switchlang('it,en','en,fr,it')" class="btn btn-lg lang-primary" title="Switch between Italian and English">en</button>
-				<button onclick="switchlang('it,fr','en,fr,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and French">fr</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-outline/css/pencil.svg" alt="Written by" width="38px"></span> Violet Otieno</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-outline/css/art.svg" alt="Illustrated by" width="38px"></span> Catherine Groenewald</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-outline/css/global.svg" alt="Translated by" width="38px"></span> Laura Pighini</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-outline/css/megaphone.svg" alt="Read by" width="38px"></span> Sonia Pighini</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-outline/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-outline/stories/it">Italian</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-outline/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-outline/stories/it/level4">Level 4</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/it/0243/it-0243_holidays.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/it/0243/mp3/01.mp3"></audio>
+			<button onclick="switchlang('it,en','en,fr,it')" class="btn btn-lg lang-primary" title="Switch between Italian and English">en</button>
+			<button onclick="switchlang('it,fr','en,fr,it')" class="btn btn-lg lang-secondary" title="Switch between Italian and French">fr</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/pencil.svg" alt="Written by"></span> Violet Otieno</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/art.svg" alt="Illustrated by"></span> Catherine Groenewald</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/global.svg" alt="Translated by"></span> Laura Pighini</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/megaphone.svg" alt="Read by"></span> Sonia Pighini</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/language.svg" alt="Language"></span> <a href="/storybooks-outline/stories/it">Italian</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/level.svg" alt="Level"></span> <a href="/storybooks-outline/stories/it/level4">Level 4</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/it/0243/it-0243_holidays.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -110,18 +113,12 @@
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Odongo and Apiyo lived in the
-city with their father.
-They looked forward to the
-holidays. Not just because
-school was closed, but because
-they went to visit their
-grandmother.
-She lived in a fishing village
-near a large lake.
+	Odongo and Apiyo lived in the city with their father.
+
+They looked forward to the holidays. Not just because school was closed, but because they went to visit their grandmother. She lived in a fishing village near a large lake.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Odongo et Apiyo vivaient dans la ville avec leur père. Ils avaient hâte aux vacances. Non seulement parce que l'école serait fermée, mais parce qu'ils iraient rendre visite à leur grand-mère. Elle vivait dans un village de pêche près d'un grand lac.
+	Odongo et Apiyo vivaient dans la ville avec leur père. Ils avaient hâte aux vacances. Non seulement parce que l’école serait fermée, mais parce qu’ils iraient rendre visite à leur grand-mère. Elle vivait dans un village de pêche près d’un grand lac.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -147,18 +144,12 @@ near a large lake.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Odongo and Apiyo were excited
-because it was time to visit
-their grandmother again.
-The night before, they packed
-their bags and got ready for the
-long journey to her village.
-They could not sleep and talked
-the whole night about the
-holiday.
+	Odongo and Apiyo were excited because it was time to visit their grandmother again.
+
+The night before, they packed their bags and got ready for the long journey to her village. They could not sleep and talked the whole night about the holiday.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Odongo et Apiyo avaient hâte parce que c'était le temps de rendre visite à leur grand-mère de nouveau. La veille, ils ont fait leurs valises et se sont préparés pour le long voyage jusqu'à son village. Ils ne pouvaient pas dormir et ils ont parlé toute la nuit à propos des vacances.
+	Odongo et Apiyo avaient hâte parce que c’était à nouveau le temps de rendre visite à leur grand-mère. La veille, ils ont fait leurs valises et se sont préparés pour le long voyage jusqu’à son village. Ils ne pouvaient pas dormir et ils ont parlé toute la nuit à propos des vacances.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -184,17 +175,12 @@ holiday.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Early the next morning, they
-left for the village in their
-father's car.
-They drove past mountains,
-wild animals and tea
-plantations.
-They counted cars and sang
-songs.
+	Early the next morning, they left for the village in their father’s car.
+
+They drove past mountains, wild animals and tea plantations. They counted cars and sang songs.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Tôt le lendemain matin, ils sont partis vers le village dans la voiture de leur père. Ils ont vu des montagnes, des animaux sauvages et des plantations de thé. Ils ont compté des voitures et ont chanté des chansons.
+	Tôt le lendemain matin, ils sont partis vers le village dans la voiture de leur père. Ils ont vu des montagnes, des animaux sauvages et des plantations de thé. Ils ont compté les voitures et ont chanté des chansons.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -220,8 +206,7 @@ songs.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	After a while, the children were
-tired and fell asleep.
+	After a while, the children were tired and fell asleep.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Après un certain temps, les enfants se sont endormis, fatigués.
@@ -250,20 +235,14 @@ tired and fell asleep.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Father woke up Odongo and
-Apiyo as they arrived in the
-village.
-They found Nyar-Kanyada, their
-grandmother, resting on a mat
-under a tree.
-Nyar-Kanyada in Luo, means
-'daughter of the people of
-Kanyada'.
-She was a strong and beautiful
-woman.
+	Father woke up Odongo and Apiyo as they arrived in the village.
+
+They found Nyar-Kanyada, their grandmother, resting on a mat under a tree.
+
+Nyar-Kanyada in Luo, means ‘daughter of the people of Kanyada’. She was a strong and beautiful woman.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Papa réveilla Odongo et Apiyo lorsqu'ils arrivèrent au village. Ils ont trouvé leur grand-mère Nyar-Kanyada assied sous un arbre. En le luo, Nyar-Kanyada veut dire « fille du peuple de Kanyada ». Elle était une femme belle et forte.
+	Papa réveilla Odongo et Apiyo lorsqu’ils arrivèrent au village. Ils ont trouvé leur grand-mère Nyar-Kanyada assise sous un arbre. En luo, Nyar-Kanyada veut dire « fille du peuple de Kanyada ». C’ était une femme belle et forte.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -289,19 +268,16 @@ woman.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Nyar-Kanyada welcomed them
-into the house and danced
-around the room singing with
-joy.
-Her grandchildren were excited
-to give her the presents they
-brought from the city.
-"First open my gift," said
-Odongo.
-"No, my gift first!" said Apiyo.
+	Nyar-Kanyada welcomed them into the house and danced around the room singing with joy.
+
+Her grandchildren were excited to give her the presents they brought from the city.
+
+“First open my gift,” said Odongo.
+
+“No, my gift first!” said Apiyo.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Nyar-Kanyada les a accueillis dans sa maison et a dansé tout autour de la salle en chantant de bonheur. Ses petits-enfants avaient hâte de lui donner les cadeaux qu'ils avaient apporté de la ville. « Ouvre mon cadeau en premier, » dit Odongo. « Non, ouvre le mien en premier ! » dit Apiyo.
+	Nyar-Kanyada les a accueillis dans sa maison et a dansé tout autour de la salle en chantant de bonheur. Ses petits-enfants avaient hâte de lui donner les cadeaux qu’ils avaient apportés de la ville. « Ouvre mon cadeau en premier, » dit Odongo. « Non, ouvre le mien en premier ! » dit Apiyo.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -327,10 +303,7 @@ Odongo.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	After she opened the presents,
-Nyar-Kanyada blessed her
-grandchildren in a traditional
-way.
+	After she opened the presents, Nyar-Kanyada blessed her grandchildren in a traditional way.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Après avoir ouvert ses cadeaux, Nyar-Kanyada donna une bénédiction traditionnelle à ses petits-enfants.
@@ -359,12 +332,10 @@ way.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Then Odongo and Apiyo went
-outside. They chased butterflies
-and birds.
+	Then Odongo and Apiyo went outside. They chased butterflies and birds.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Ensuite, Odongo et Apiyo sont sortis dehors. Ils ont poursuivit des papillons et des oiseaux.
+	Ensuite, Odongo et Apiyo sont sortis dehors. Ils ont poursuivi des papillons et des oiseaux.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -390,12 +361,10 @@ and birds.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	They climbed trees and
-splashed in the water of the
-lake.
+	They climbed trees and splashed in the water of the lake.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Ils ont grimpé des arbres et se sont éclaboussés dans l'eau du lac.
+	Ils ont grimpé aux arbres et se sont éclaboussés dans l’eau du lac.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -421,13 +390,10 @@ lake.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	When it was dark they returned
-to the house for dinner.
-Before they could finish eating,
-they were falling asleep!
+	When it was dark they returned to the house for dinner. Before they could finish eating, they were falling asleep!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Quand la nuit tomba ils sont retournés à la maison pour souper. Avant qu'ils puissent finir de manger, ils s'endormaient !
+	Quand la nuit tomba ils retournèrent à la maison pour souper. Ils se sont endormis avant même de finir de manger!
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -453,9 +419,7 @@ they were falling asleep!
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	The next day, the children's
-father drove back to the city
-leaving them with Nyar-Kanyada.
+	The next day, the children’s father drove back to the city leaving them with Nyar-Kanyada.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Le lendemain, le père des enfants est retourné à la ville, les laissant avec Nyar-Kanyada.
@@ -484,17 +448,10 @@ leaving them with Nyar-Kanyada.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Odongo and Apiyo helped their
-grandmother with household
-chores.
-They fetched water and
-firewood.
-They collected eggs from the
-chickens and picked greens
-from the garden.
+	Odongo and Apiyo helped their grandmother with household chores. They fetched water and firewood. They collected eggs from the chickens and picked greens from the garden.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Odongo et Apiyo ont aidé leur grand-mère à faire les tâches ménagères. Ils sont allés chercher de l'eau et du bois de chauffage. Ils ont recueilli les œufs des poules et ont ramassé des verts dans le jardin.
+	Odongo et Apiyo ont aidé leur grand-mère à faire les tâches ménagères. Ils sont allés chercher de l’eau et du bois de chauffage. Ils ont ramassé les œufs des poules et ont cueilli des herbes aromatiques dans le jardin.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -520,15 +477,10 @@ from the garden.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Nyar-Kanyada taught her
-grandchildren to make soft ugali
-to eat with stew.
-She showed them how to make
-coconut rice to eat with roast
-fish.
+	Nyar-Kanyada taught her grandchildren to make soft ugali to eat with stew. She showed them how to make coconut rice to eat with roast fish.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Nyar-Kanyada a montré à ses petits-enfants comment faire de l'ugali mou pour manger avec du ragoût. Elle leur a montré comment faire du riz de noix de coco pour manger avec du poisson grillé.
+	Nyar-Kanyada a montré à ses petits-enfants comment faire de l’ugali mou pour manger avec du ragoût. Elle leur a montré comment faire du riz de noix de coco pour manger avec du poisson grillé.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -554,19 +506,12 @@ fish.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	One morning, Odongo took his
-grandmother's cows to graze.
-They ran onto a neighbour's
-farm.
-The farmer was angry with
-Odongo. He threatened to keep
-the cows for eating his crops.
-After that day, the boy made
-sure that the cows did not get
-into trouble again.
+	One morning, Odongo took his grandmother’s cows to graze. They ran onto a neighbour’s farm.
+
+The farmer was angry with Odongo. He threatened to keep the cows for eating his crops. After that day, the boy made sure that the cows did not get into trouble again.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Un matin, Odongo a apporté les vaches de sa grand-mère paître. Elles se sont rendues dans la ferme d'un voisin. Le fermier était fâché envers Odongo. Il a menacé de garder les vaches pour avoir mangé ses récoltes. Après ce jour-là, le garçon a veillé à ce que les vaches n'attirent pas d'ennuis.
+	Un matin, Odongo a mené paître les vaches de sa grand-mère. Elles ont couru dans la ferme d’un voisin. Le fermier était fâché envers Odongo. Il a menacé de garder les vaches parce qu’elles avaient mangé ses récoltes. À partir de ce jour-là, le garçon a veillé à ce que les vaches ne fassent pas d’autres bêtises.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -592,15 +537,9 @@ into trouble again.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	On another day, the children
-went to the marketplace with
-Nyar-Kanyada.
-She had a stall selling
-vegetables, sugar and soap.
-Apiyo liked to tell customers the
-price of items.
-Odongo would pack the items
-that customers bought.
+	On another day, the children went to the marketplace with Nyar-Kanyada. She had a stall selling vegetables, sugar and soap.
+
+Apiyo liked to tell customers the price of items. Odongo would pack the items that customers bought.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Un autre jour, les enfants sont allés au marché avec Nyar-Kanyada. Elle avait un stand pour vendre des légumes, du sucre et du savon. Apiyo aimait donner le prix des articles aux clients. Odongo emballait ce que les clients achetaient.
@@ -629,13 +568,10 @@ that customers bought.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	At the end of the day they
-drank chai tea together.
-They helped grandmother to
-count the money she earned.
+	At the end of the day they drank chai tea together. They helped grandmother to count the money she earned.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	À la fin de la journée, ils ont bu du thé chai ensemble. Ils ont aidé leur grand-mère à compter l'argent qu'elle avait gagné.
+	À la fin de la journée, ils ont bu du thé chai ensemble. Ils ont aidé leur grand-mère à compter l’argent qu’elle avait gagné.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -661,13 +597,9 @@ count the money she earned.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	But too soon the holidays were
-over and the children had to go
-back to the city.
-Nyar-Kanyada gave Odongo a
-cap and Apiyo a sweater.
-She packed food for their
-journey.
+	But too soon the holidays were over and the children had to go back to the city.
+
+Nyar-Kanyada gave Odongo a cap and Apiyo a sweater. She packed food for their journey.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
 	Trop tôt, les vacances étaient terminées et les enfants devaient retourner à la ville. Nyar-Kanyada donna une casquette à Odongo et un chandail à Apiyo. Elle emballa de la nourriture pour leur voyage.
@@ -696,18 +628,12 @@ journey.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	When their father came to fetch
-them, they did not want to
-leave.
-The children begged Nyar-Kanyada to go with them to the
-city.
-She smiled and said, "I am too
-old for the city. I will be waiting
-for you to come to my village
-again."
+	When their father came to fetch them, they did not want to leave. The children begged Nyar-Kanyada to go with them to the city.
+
+She smiled and said, “I am too old for the city. I will be waiting for you to come to my village again.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Quand leur père est venu les chercher, ils ne voulaient pas partir. Les enfants ont supplié Nyar-Kanyada de venir avec eux à la ville. Elle sourit et dit, « Je suis trop vieille pour la ville. J'attendrai votre retour à mon village. »
+	Quand leur père est venu les chercher, ils ne voulaient pas partir. Les enfants ont supplié Nyar-Kanyada de venir avec eux à la ville. Elle sourit et dit, « Je suis trop vieille pour la ville. J’attendrai votre retour à mon village. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -733,11 +659,10 @@ again."
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	Odongo and Apiyo both hugged
-her tightly and said goodbye.
+	Odongo and Apiyo both hugged her tightly and said goodbye.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Odongo et Apiyo l'on tous les deux embrassé fort et lui on dit au revoir.
+	Odongo et Apiyo l’ont tous les deux embrassée fort et lui ont dit au revoir.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -763,19 +688,12 @@ her tightly and said goodbye.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l1"><h3>
-	When Odongo and Apiyo went
-back to school they told their
-friends about life in the village.
-Some children felt that life in
-the city was good.
-Others felt that the village was
-better.
-But most of all, everyone
-agreed that Odongo and Apiyo
-had a wonderful grandmother!
+	When Odongo and Apiyo went back to school they told their friends about life in the village. Some children felt that life in the city was good. Others felt that the village was better.
+
+But most of all, everyone agreed that Odongo and Apiyo had a wonderful grandmother!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level4-txt l2"><h3>
-	Quand Odongo et Apiyo sont retournés à l'école ils ont raconté leurs histoires de la vie dans le village à leurs amis. Certains enfants croyaient que la vie en ville était bonne. D'autres étaient de l'avis que le village était meilleur. Surtout, tous étaient d'accord que Odongo et Apiyo avaient une grand-mère merveilleuse !
+	Quand Odongo et Apiyo sont retournés à l’école ils ont raconté leurs histoires de la vie dans le village à leurs amis. Certains enfants croyaient que la vie en ville était bonne. D’autres étaient de l’avis que le village était meilleur. Et surtout, ils étaient tous d’accord que Odongo et Apiyo avaient une grand-mère merveilleuse !
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -801,9 +719,9 @@ had a wonderful grandmother!
 		<h5>Read by: Sonia Pighini</h5>
 		<h5>Language: <a href="/storybooks-outline/stories/it">Italian</a></h5>
 		<h5><a href="/storybooks-outline/stories/it/level4">Level 4</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/12084" target="_blank">Holidays with grandmother</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=12084" target="_blank">Holidays with grandmother</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/4.0/" target="_blank">Creative Commons Attribution 4.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -818,6 +736,8 @@ had a wonderful grandmother!
 	<a class="btn btn-lg" href="/storybooks-outline/stories/it" class="button">Back to stories list</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/outline/pdf/it/it-0243_holidays-outline.pdf">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

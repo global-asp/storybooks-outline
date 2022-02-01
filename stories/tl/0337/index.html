@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Outline is a resource designed for teachers, parents, and community members that makes the 40 stories featured on Storybooks Canada available in black & white colour-in versions.
 ">
 	<link rel="stylesheet" href="/storybooks-outline/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-outline/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-outline/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-outline/stories/tl/0337/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Outline" href="https://global-asp.github.io//storybooks-outline/feed.xml">
 	<script src="/storybooks-outline/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -74,7 +77,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-outline/stories/tl" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-outline/stories/tl">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0337/01.jpg"></div>
@@ -82,22 +85,22 @@
 		<h1><span class="def">Mga Batang Sera</span>
 			<span class="l1">Children of wax</span>
 			<span class="l2">Les enfants de cire</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/tl/0337/mp3/01.mp3"></audio>
-				<button onclick="switchlang('tl,en','en,fr,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and English">en</button>
-				<button onclick="switchlang('tl,fr','en,fr,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and French">fr</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-outline/css/pencil.svg" alt="Written by" width="38px"></span> Southern African Folktale</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-outline/css/art.svg" alt="Illustrated by" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-outline/css/global.svg" alt="Translated by" width="38px"></span> Arlene Avila</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-outline/css/megaphone.svg" alt="Read by" width="38px"></span> La Trinidad Mina</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-outline/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-outline/stories/tl">Tagalog</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-outline/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-outline/stories/tl/level2">Level 2</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/tl/0337/tl-0337_wax.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/tl/0337/mp3/01.mp3"></audio>
+			<button onclick="switchlang('tl,en','en,fr,tl')" class="btn btn-lg lang-primary" title="Switch between Tagalog and English">en</button>
+			<button onclick="switchlang('tl,fr','en,fr,tl')" class="btn btn-lg lang-secondary" title="Switch between Tagalog and French">fr</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/pencil.svg" alt="Written by"></span> Southern African Folktale</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/global.svg" alt="Translated by"></span> Arlene Avila</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/megaphone.svg" alt="Read by"></span> La Trinidad Mina</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/language.svg" alt="Language"></span> <a href="/storybooks-outline/stories/tl">Tagalog</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/level.svg" alt="Level"></span> <a href="/storybooks-outline/stories/tl/level2">Level 2</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/tl/0337/tl-0337_wax.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -178,7 +181,7 @@ allowed to go near a
 fire.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Mais ils n'avaient pas le droit de s'approcher d'un feu.
+	Mais ils n’avaient pas le droit de s’approcher d’un feu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -210,7 +213,7 @@ work during the night.
 Because they were made of wax!
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ils devaient faire tout leur travail pendant la nuit. Puisqu'ils étaient faits de cire !
+	Ils devaient faire tout leur travail pendant la nuit. Puisqu’ils étaient faits de cire !
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -269,10 +272,10 @@ sunlight.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l1"><h3>
 	One day the longing
 was too strong. His
-brothers warned him...
+brothers warned him…
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Un jour son désire était trop puissant. Ses frères l'avertirent...
+	Un jour son désir était trop puissant. Ses frères l’avertirent…
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -303,7 +306,7 @@ He melted in the hot
 sun.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Mais c'était trop tard ! Il fonda au soleil brûlant.
+	Mais c’était trop tard ! Il fondit au soleil brûlant.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -397,7 +400,7 @@ brother up to a high
 mountain.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Ils apportèrent leur frère l'oiseau jusqu'au sommet d'une montagne haute.
+	Ils apportèrent leur frère l’oiseau jusqu’au sommet d’une montagne haute.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -428,7 +431,7 @@ flew away singing into
 the morning light.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level2-txt l2"><h3>
-	Et lorsque le soleil se leva, il s'envola vers la lumière du matin en chantant.
+	Et lorsque le soleil se leva, il s’envola vers la lumière du matin en chantant.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -454,9 +457,9 @@ the morning light.
 		<h5>Read by: La Trinidad Mina</h5>
 		<h5>Language: <a href="/storybooks-outline/stories/tl">Tagalog</a></h5>
 		<h5><a href="/storybooks-outline/stories/tl/level2">Level 2</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/2181" target="_blank">Children of wax</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=2181" target="_blank">Children of wax</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -478,6 +481,8 @@ the morning light.
 	<a class="btn btn-lg" href="/storybooks-outline/stories/tl" class="button">Back to stories list</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/outline/pdf/tl/tl-0337_wax-outline.pdf">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 

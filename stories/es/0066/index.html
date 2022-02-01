@@ -16,13 +16,16 @@
 	<meta name="description" content="Storybooks Outline is a resource designed for teachers, parents, and community members that makes the 40 stories featured on Storybooks Canada available in black & white colour-in versions.
 ">
 	<link rel="stylesheet" href="/storybooks-outline/css/spectre.min.css">
+	<link rel="stylesheet" href="/storybooks-outline/css/gsn.min.css">
 	<link rel="stylesheet" href="/storybooks-outline/css/fontello.min.css">
 	<link rel="canonical" href="https://global-asp.github.io//storybooks-outline/stories/es/0066/">
 	<link rel="alternate" type="application/rss+xml" title="Storybooks Outline" href="https://global-asp.github.io//storybooks-outline/feed.xml">
 	<script src="/storybooks-outline/js/sbc.js"></script>
 </head>
 
+
   <body>
+
 
     <div class="container">
 
@@ -74,7 +77,7 @@
 	</select>
 </div>
 
-        <a class="btn btn-lg" href="/storybooks-outline/stories/es" class="button">Back to stories list</a><br><br>
+        <a class="btn btn-lg" href="/storybooks-outline/stories/es">Back to stories list</a><br><br>
 
 <div class="columns" id="text01">
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12"><img class="img-responsive" src="https://raw.githubusercontent.com/global-asp/gsn-imagebank-outline/master/0066/01.jpg"></div>
@@ -82,22 +85,22 @@
 		<h1><span class="def">Nozibele y sus tres cabellos</span>
 			<span class="l1">Nozibele and the three hairs</span>
 			<span class="l2">Nozibele et les trois cheveux</span>
-			<div class="btn-group">
-				<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
-				<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
-				<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/es/0066/mp3/01.mp3"></audio>
-				<button onclick="switchlang('es,en','en,fr,es')" class="btn btn-lg lang-primary" title="Switch between Spanish and English">en</button>
-				<button onclick="switchlang('es,fr','en,fr,es')" class="btn btn-lg lang-secondary" title="Switch between Spanish and French">fr</button>
-			</div>
 		</h1>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon" src="/storybooks-outline/css/pencil.svg" alt="Written by" width="38px"></span> Tessa Welch</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon" src="/storybooks-outline/css/art.svg" alt="Illustrated by" width="38px"></span> Wiehan de Jager</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon" src="/storybooks-outline/css/global.svg" alt="Translated by" width="38px"></span> Karina Vásquez</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon" src="/storybooks-outline/css/megaphone.svg" alt="Read by" width="38px"></span> Áurea Vericat</h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon" src="/storybooks-outline/css/language.svg" alt="Language" width="38px"></span> <a href="/storybooks-outline/stories/es">Spanish</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon" src="/storybooks-outline/css/level.svg" alt="Level" width="38px"></span> <a href="/storybooks-outline/stories/es/level3">Level 3</a></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story" width="38px"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/es/0066/es-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
-		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" width="38px" onclick="autoplay()"></span></h3>
+		<div class="btn-group cover-buttons">
+			<a href="#text02" class="btn btn-lg" title="Next page"><i class="icon-arrow-down"></i></a>
+			<button class="btn btn-lg" id="playbutton01" onclick="playpause('01')" title="Play/pause"><i class="icon-volume-up"></i></button>
+			<audio id="audio01" onended="resetbutton('01')" src="https://globalstorybooks.net/media/audio/es/0066/mp3/01.mp3"></audio>
+			<button onclick="switchlang('es,en','en,fr,es')" class="btn btn-lg lang-primary" title="Switch between Spanish and English">en</button>
+			<button onclick="switchlang('es,fr','en,fr,es')" class="btn btn-lg lang-secondary" title="Switch between Spanish and French">fr</button>
+		</div>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Written by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/pencil.svg" alt="Written by"></span> Tessa Welch</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Illustrated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/art.svg" alt="Illustrated by"></span> Wiehan de Jager</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Translated by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/global.svg" alt="Translated by"></span> Karina Vásquez</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Read by"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/megaphone.svg" alt="Read by"></span> Áurea Vericat</h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Language"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/language.svg" alt="Language"></span> <a href="/storybooks-outline/stories/es">Spanish</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Level"><img class="cover-icon cover-icon-text" src="/storybooks-outline/css/level.svg" alt="Level"></span> <a href="/storybooks-outline/stories/es/level3">Level 3</a></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Narrate story"><img class="cover-icon cover-icon-audio" src="/storybooks-outline/css/speaker.svg" alt="Narrate full story"></span> <audio id="audioplayer" controls><source src="https://globalstorybooks.net/media/audio/es/0066/es-0066_nozibele.mp3" type="audio/mpeg"></audio></h3>
+		<h3><span class="tooltip tooltip-right" data-tooltip="Autoplay story (beta - desktop only)"><img id="autoplay_icon" class="cover-icon cover-icon-text" src="https://dohliam.github.io/elegant-circles/svg/play.svg" alt="Autoplay story" style="cursor:pointer" onclick="autoplay()"></span></h3>
 	</div>
 </div>
 <hr>
@@ -146,7 +149,7 @@ They played and splashed and
 swam in the water.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	C'était une journée très chaude, alors elles sont descendues à la rivière pour nager. Elles ont joué, éclaboussé et nagé dans l'eau.
+	C’était une journée très chaude, alors elles sont descendues à la rivière pour nager. Elles ont joué, fait des éclaboussures et nagé dans l’eau.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -177,7 +180,7 @@ late.
 They hurried back to the village.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Soudainement, elles se sont rendues compte qu'il était tard. Elles se sont dépêchées pour rentrer au village.
+	Soudainement, elles se sont rendu compte qu’il était tard. Elles se sont dépêchées de rentrer au village.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -206,12 +209,12 @@ They hurried back to the village.
 	When they were nearly home,
 Nozibele put her hand to her neck.
 She had forgotten her necklace!
-"Please come back with me!" she
+“Please come back with me!” she
 begged her friends.
 But her friends said it was too late.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Mais quand elles étaient presque rendues chez elles, Nozibele mit sa main sur son cou. Elle avait oublié son collier ! « S'il vous plaît, retourner avec moi ! » elle supplia ses amies. Mais ses amies lui dirent que c'était trop tard.
+	Mais quand elles étaient presque arrivées chez elles, Nozibele mit sa main à son cou. Elle avait oublié son collier ! « S’il vous plaît, retournez avec moi ! » supplia-t-elle ses amies. Mais ses amies lui dirent que c’était trop tard.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -244,7 +247,7 @@ home.
 But she got lost in the dark.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ainsi Nozibele retourna à la rivière toute seule. Elle trouva son collier et se dépêcha pour rentrer chez elle. Mais elle se perdit dans le noir.
+	Ainsi Nozibele retourna à la rivière toute seule. Elle trouva son collier et se dépêcha de rentrer chez elle. Mais elle se perdit dans le noir.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -276,7 +279,7 @@ She hurried towards it and knocked
 at the door.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Au loin elle vit de la lumière qui venait d'une cabane. Elle se hâta vers la cabane et cogna à la porte.
+	Au loin elle vit de la lumière qui venait d’une cabane. Elle se hâta vers la cabane et cogna à la porte.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -303,15 +306,15 @@ at the door.
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	To her surprise, a dog opened the
-door and said, "What do you want?"
-"I'm lost and I need a place to
-sleep," said Nozibele.
-"Come in, or I'll bite you!" said the
+door and said, “What do you want?”
+“I’m lost and I need a place to
+sleep,” said Nozibele.
+“Come in, or I’ll bite you!” said the
 dog.
 So Nozibele went in.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	À sa surprise, un chien ouvra la porte et dit, « Qu'est-ce que tu veux ? » « Je suis perdue et j'ai besoin d'un endroit pour dormir, » dit Nozibele. « Rentre, sinon je te mords ! » dit le chien. Alors, Nozibele rentra.
+	À sa surprise, un chien ouvrit la porte et dit, « Qu’est-ce que tu veux ? » « Je suis perdue et j’ai besoin d’un endroit pour dormir, » dit Nozibele. « Rentre, sinon je te mords ! » dit le chien. Alors, Nozibele rentra.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -337,15 +340,15 @@ So Nozibele went in.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Then the dog said, "Cook for me!"
-"But I've never cooked for a dog
-before," she answered.
-"Cook, or I'll bite you!" said the dog.
+	Then the dog said, “Cook for me!”
+“But I’ve never cooked for a dog
+before,” she answered.
+“Cook, or I’ll bite you!” said the dog.
 So Nozibele cooked some food for
 the dog.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Puis le chien dit, « Fais-moi à manger ! » « Mais je n'ai jamais cuisiné pour un chien auparavant, » elle répondit. « Cuisine, sinon je te mords ! » dit le chien. Donc, Nozibele prépara de la nourriture pour le chien.
+	Puis le chien dit, « Fais-moi à manger ! » « Mais je n’ai jamais cuisiné pour un chien auparavant, » répondit-elle. « Cuisine, sinon je te mords ! » dit le chien. Donc, Nozibele prépara de la nourriture pour le chien.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -371,16 +374,16 @@ the dog.
 	</h3></div>
 
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
-	Then the dog said, "Make the bed
-for me!"
-Nozibele answered, "I've never
-made a bed for a dog."
-"Make the bed, or I'll bite you!" the
+	Then the dog said, “Make the bed
+for me!”
+Nozibele answered, “I’ve never
+made a bed for a dog.”
+“Make the bed, or I’ll bite you!” the
 dog said.
 So Nozibele made the bed.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ensuite, le chien dit, « Fais le lit pour moi ! » Nozibele répondit, « Je n'ai jamais fait de lit pour un chien. » « Fais le lit, sinon je te mords ! » dit le chien. Donc, Nozibele fit le lit.
+	Ensuite, le chien dit, « Fais le lit pour moi ! » Nozibele répondit, « Je n’ai jamais fait de lit pour un chien. » « Fais le lit, sinon je te mords ! » dit le chien. Donc, Nozibele fit le lit.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -409,13 +412,13 @@ So Nozibele made the bed.
 	Every day she had to cook and
 sweep and wash for the dog.
 Then one day the dog said,
-"Nozibele, today I have to visit
+“Nozibele, today I have to visit
 some friends. Sweep the house,
 cook the food and wash my things
-before I come back."
+before I come back.”
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Chaque jour, elle devait cuisiner et balayer et laver pour le chien. Puis un jour le chien dit, « Nozibele, aujourd'hui je dois rendre visite à des amis. Balaye la maison, fais à manger et lave mes choses avant que je revienne. »
+	Chaque jour, elle devait cuisiner et balayer et laver pour le chien. Puis un jour le chien dit, « Nozibele, aujourd’hui je dois rendre visite à des amis. Balaye la maison, fais à manger et lave mes affaires avant mon retour. »
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -451,7 +454,7 @@ Then she ran home as fast as she
 could.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Aussitôt que le chien fut parti, Nozibele prit trois cheveux de sa tête. Elle en mit un sous le lit, un derrière la porte et un dans le kraal. Puis elle rentra chez elle en courant aussi vite qu'elle pouvait.
+	Aussitôt que le chien fut parti, Nozibele prit trois cheveux de sa tête. Elle en mit un sous le lit, un derrière la porte et un dans le kraal. Puis elle rentra chez elle en courant aussi vite qu’elle pouvait.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -479,17 +482,17 @@ could.
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l1"><h3>
 	When the dog came back, he looked
 for Nozibele.
-"Nozibele, where are you?" he
+“Nozibele, where are you?” he
 shouted.
-"I'm here, under the bed," said the
+“I’m here, under the bed,” said the
 first hair.
-"I'm here, behind the door," said the
+“I’m here, behind the door,” said the
 second hair.
-"I'm here, in the kraal," said the
+“I’m here, in the kraal,” said the
 third hair.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Quand le chien revient, il chercha Nozibele. « Nozibele, où es-tu ? » il cria. « Je suis ici, sous le lit, » dit le premier cheveu. « Je suis ici, derrière la porte, » dit le deuxième cheveu. « Je suis ici, dans le kraal, » dit le troisième cheveu.
+	Quand le chien revint, il chercha Nozibele. « Nozibele, où es-tu ? » cria-t-il. « Je suis ici, sous le lit, » dit le premier cheveu. « Je suis ici, derrière la porte, » dit le deuxième cheveu. « Je suis ici, dans le kraal, » dit le troisième cheveu.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -519,13 +522,13 @@ third hair.
 had tricked him.
 So he ran and ran all the way to the
 village.
-But Nozibele's brothers were
+But Nozibele’s brothers were
 waiting there with big sticks.
 The dog turned and ran away and
 has never been seen since.
 	</h3></div>
 	<div class="column col-6 col-lg-11 col-md-12 col-sm-12 level3-txt l2"><h3>
-	Ainsi le chien sut que Nozibele l'avait trompé. Il courut et courut jusqu'au village. Mais les frères de Nozibele l'attendaient avec des gros bâtons. Le chien vira de bord et s'enfuit et il n'a pas été vu depuis.
+	Ainsi le chien sut que Nozibele l’avait trompé. Il courut et courut jusqu’au village. Mais les frères de Nozibele l’attendaient avec des gros bâtons. Le chien vira de bord et s’enfuit et on ne l’a pas revu depuis.
 	</h3></div>
 	<div class="column col-1 col-lg-1 col-md-12 col-sm-12">
 	<div class="btn-group switcher-group">
@@ -551,9 +554,9 @@ has never been seen since.
 		<h5>Read by: Áurea Vericat</h5>
 		<h5>Language: <a href="/storybooks-outline/stories/es">Spanish</a></h5>
 		<h5><a href="/storybooks-outline/stories/es/level3">Level 3</a></h5>
-		<h5>Source: <a href="https://africanstorybook.org/stories/1880" target="_blank">Nozibele and the three hairs</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
+		<h5>Source: <a href="https://africanstorybook.org/reader.php?id=1880" target="_blank">Nozibele and the three hairs</a> from <a href="https://africanstorybook.org/">African Storybook</a></h5>
 
-		<left><a rel="license" href="https://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 International License</a>.</left>
+		<div><a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="https://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons Attribution 3.0 International License</a>.</div>
 
 	</div>
 	<div class="column col-5 col-lg-12 col-md-12 col-sm-12">
@@ -562,6 +565,7 @@ has never been seen since.
 			<label class="chip"><a href="/storybooks-outline/stories/es/0141/">El Pollo y el Milpiés</a></label>
 			<label class="chip"><a href="/storybooks-outline/stories/es/0201/">El Niño Burro</a></label>
 			<label class="chip"><a href="/storybooks-outline/stories/es/0315/">La canción de Sakima</a></label>
+			<label class="chip"><a href="/storybooks-outline/stories/es/0006/">Anansi y la sabiduría</a></label>
 			<label class="chip"><a href="/storybooks-outline/stories/es/0324/">El día que dejé mi casa para irme a la ciudad</a></label>
 			<label class="chip"><a href="/storybooks-outline/stories/es/0158/">La Gallina y el Águila</a></label>
 	</div>
@@ -571,6 +575,8 @@ has never been seen since.
 	<a class="btn btn-lg" href="/storybooks-outline/stories/es" class="button">Back to stories list</a> <a class="btn btn-lg" target="_blank" href="https://globalstorybooks.net/outline/pdf/es/es-0066_nozibele-outline.pdf">Download PDF</a>
 <br><br>
 </div>
+
+
 
     </div>
 
